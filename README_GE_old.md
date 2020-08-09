@@ -1,156 +1,157 @@
-# Fortnite-LobbyBot
-[![Python Versions](https://img.shields.io/badge/3.7%20%7C%203.8-blue)](https://www.python.org/downloads/)  
+# Fort-Lobbot
+[![Python-Versionen](https://img.shields.io/badge/3.7%20%7C%203.8-blue)](https://www.python.org/downloads/)  
 <a href="https://discord.gg/SeQkRWN"><img src="https://discordapp.com/api/guilds/718709023427526697/widget.png?style=banner2" /></a>  
-A Fortnite bot using fortnitepy  
-You can control bot by sending command  
+Ein Fortnite-Bot mit Fortnitepy 
+Sie können den Bot steuern, indem Sie einen Befehl senden  
 
 My translation is bad. If you have better translation, please tell me.  
+Meine Übersetzung ist schlecht. Wenn Sie eine bessere Übersetzung haben, sagen Sie es mir bitte.
 
-# Install
+# Installieren
 # PC
 https://github.com/renegadefn/renegadefn
-[Python 3.7](https://www.python.org/downloads "Python Download") or higher is required  
+[Python 3.7](https://www.python.org/downloads "Python Download") oder höher ist erforderlich  
 
-Run INSTALL.bat  
-Run RUN.bat  
-Write details in site which opened  
-Press Save button
-You can write other details by reloading tab  
+Führen Sie INSTALL.bat aus
+Führen Sie RUN.bat aus
+Schreiben Sie Details in die Site, die geöffnet wurde
+Klicken Sie auf die Schaltfläche Speichern
+Sie können andere Details schreiben, indem Sie die Registerkarte neu laden
   
-# Glitch
-Glitch is not recommended because can't make bot 24/7!
+# Panne
+Glitch wird nicht empfohlen, da Bot nicht rund um die Uhr hergestellt werden kann!
 
 https://glitch.com
-Click Sign in on the top right  
+Klicken Sie oben rechts auf Anmelden
 https://github.com/renegadefn/renegadefn  
-Click project name and click Remix Project to remix  
-Click project name(your project) and click Make This Project Private to make project private  
-Click Show and In a new Window  
-Write details in site which opened  
-You can write other details by reload tab  
+Klicken Sie auf den Projektnamen und dann auf Remix Project, um den Remix durchzuführen
+Klicken Sie auf den Projektnamen (Ihr Projekt) und dann auf Dieses Projekt privat machen, um das Projekt privat zu machen
+Klicken Sie auf Anzeigen und In einem neuen Fenster
+Schreiben Sie Details in die Site, die geöffnet wurde
+Sie können andere Details schreiben, indem Sie die Registerkarte neu laden
 
 # config
 ```
-Fortnite
-email                     : Email address for bot account. You can set multiple by split in ,
-owner                     : Owner's name or ID
-platform                  : Bot's platform. See below
-cid                       : Bot's default outfit ID
-bid                       : Bot's default back bling ID
-pickaxe_id                : Bot's default harvesting tool ID
-eid                       : Bot's default emote ID
-playlist                  : Bot's default playlist ID
-banner                    : Bot's default banner ID
-banner_color              : Bot's default banner color
-avatar_id                 : Bot's default avatar ID
-avatar_color              : Bot's default avatar color. See below
-level                     : Bot's default level
-tier                      : Bot's default tier
-xpboost                   : Bot's default XP boost
-friendxpboost             : Bot's default friend XP boost
-status                    : Bot's default status. Can use variables. See below
-privacy                   : Bot's default privacy. See below
-whisper                   : Whether bot will accept command from whisper. true or false
-partychat                 : Whether bot will accept command from partychat. true or false
-disablewhisperperfectly   : Config for if whisper is disabled, whether decline command from owner too
-disablepartychatperfectly : Config for if partychat is disabled, whether decline command from owner too
-joinemote                 : Whether bot re dance emote when someone joined to the party. true or false
-ignorebot                 : Whether bot will ignore command from bots. true or false
-joinmessage               : Message when someone joined to the party. \n to line break
-randommessage             : Random message when someone joined to the party. \n to line break
-joinmessageenable         : Whether bot will send message when someone joined to the party. true or false
-randommessageenable       : Whether bot will send random message when someone joined to the party. true or false
-outfitmimic               : Whether bot will mimic other player's outfit. true or false or user's name or ID
-backpackmimic             : Whether bot will mimic other player's backpack. true or false or user's name or ID
-pickaxemimic              : Whether bot will mimic other player's pickaxe. true or false or user's name or ID
-emotemimic                : Whether bot will mimic other player's emote. true or false or user's name or ID
-mimic-ignorebot           : Whether bot won't mimic bot. true or false
-mimic-ignoreblacklist     : Whether bot won't mimic blacklisted user. true or false
-outfitlock                : Whether lock outfit. true or false
-backpacklock              : Whether lock backpack. true or false
-pickaxelock               : Whether lock pickaxe. true or false
-emotelock                 : Whether lock emote. true or false
-acceptinvite              : Whether bot will accept invite. Invite from owner will accepted every time. true or false
-acceptfriend              : Whether bot will accept friend request. true or false or null
-addfriend                 : Whether bot will send friend request to party member. true or false
-invite-ownerdecline       : Whether bot will decline invite when owner in the party. true or false
-inviteinterval            : Whether bot will decline invite for interval seconds after accepted invite. true or false
-interval                  : The number of seconds for decline invite after accepted invite
-waitinterval              : The number of seconds for decline invite for wait command
-hide-user                 : Whether bot will hide user joined to the party. true or false
-hide-blacklist            : Whether bot will hide blacklisted user joined to the party. true or false
-show-owner                : Whether bot will show owner when hide-user is true. true or false
-show-whitelist            : Whether bot will show whitelisted user when hide-user is true. true or false
-show-bot                  : Whether bot will show bot when hide-user is true. true or false
-blacklist                 : List for blacklist users. name or ID
-blacklist-declineinvite   : Whether bot will decline invite from blacklisted users. true or false
-blacklist-autoblock       : Whether bot will block blacklisted users. true or false
-blacklist-autokick        : Whether bot will kick blacklisted users from the party. true or false
-blacklist-autochatban     : Whether bot will chatban blacklisted users. true or false
-blacklist-ignorecommand   : Whether bot will ignore command from blacklisted users. true or false
-whitelist                 : List of whitelist users. name or ID
-whitelist-allowinvite     : Whether whitelisted users can invite bot any time. true or false
-whitelist-declineinvite   : Whether bot will decline invite when whitelisted users in the party. true or false
-whitelist-ignorelock      : Whether whitelisted users can ignore locks. true or false
-whitelist-ownercommand    : Whether whitelisted users can use owner commands. true or false
-whitelist-ignoreng        : Whether whitelisted users can ignore NG words. true or false
-invitelist                : User list for inviteall command
-otherbotlist              : Other bots which ignore in ignorebot
+Fortnite-
+email                          : E-Mail-Adresse für das Bot-Konto. Sie können mehrere festlegen, indem Sie sie aufteilen
+owner                          : Name des Eigentümers oder ID-
+platform                       : Plattform des Bots. Siehe unten
+cid                            : Standard-Outfit-ID-
+bid                            : Standard-Back-Bling-ID
+pickaxe_id                     : Bots Standard-Erntewerkzeug-ID
+eid                            : Bots Standard-Emote-ID-Bots
+playlist                       : Standard-Wiedergabelisten-ID-
+Banner                         : Standard-Banner-ID
+banner_color                   : Bots Standard-
+avatar_id                      : Bots Standard Avatar-ID
+avatar_color                   : Die Standard-Avatar-Farbe des Bots. Siehe unterste
+level                          : StandardstufeStandardstufe
+tier                           : Bots Standardstufe
+xpboost                        : Bots Standard-XP-Boost
+friendxpboost                  : Bots Standard-XP-Boost-Freunde: Bots
+Status                         : fürStandardstatus. Kann Variablen verwenden. Siehe unten
+privacy                        : Bots Standard-Datenschutz. Siehe unten
+whisper                        : Gibt an, ob der Bot den Befehl vom Flüstern akzeptiert. wahrer oder falscher
+Partychat                      : Gibt an, ob der Bot den Befehl vom Partychat akzeptiert. true oder false
+disablewhisperperfectly        : Konfigurieren Sie, ob das Flüstern deaktiviert ist, ob derdes Eigentümers zudes Eigentümers zu Ablehnungsbefehldeaktiviert ist. 
+disablepartychatperfectly      : Konfigurieren Sie, ob der Partychat deaktiviert ist, ob der Ablehnungsbefehl
+joinemote                      : Gibt an, ob ein Emote abgelehnt wurde, wenn jemand der Party beigetreten ist. true oder false
+ignorebot                      : Gibt an, ob der Bot den Befehl von Bots ignoriert. true oder false
+joinmessage                    : Nachricht, wenn jemand der Party beigetreten ist. \ nzum Zeilenumbruch
+Randommessage                  : Zufällige Nachricht, wenn sich jemand der Party angeschlossen hat. \ n zum Zeilenumbruch
+joinmessageenable              : Gibt an, ob der Bot eine Nachricht sendet, wenn sich jemand der Party anschließt. true oder false
+randommessageenable            : Gibt an, ob der Bot eine zufällige Nachricht sendet, wenn sich jemand der Party anschließt.oder falsch
+outfitmimic                    : Ob der Bot das Outfit eines anderen Spielers imitiert. true oder false oder Name oder ID des Benutzers
+backpackmimic                  : Gibt an, ob der Bot den Rucksack eines anderen Spielers nachahmt. wahr oder falsch oder Benutzername oder ID
+pickaxemimic                   : Gibt an, ob der Bot die Spitzhacke eines anderen Spielers nachahmt. wahr oder falsch oder Benutzername oder ID
+emotionsemimisch               : Gibt an, ob der Bot das Emote eines anderen Spielers nachahmt. true oder false oder Benutzername oder ID
+mimic-ignorebot                : Gibt an, ob der Bot den Bot nicht imitiert. true oder false
+mimic-ignoreblacklist          : Gibt an, ob der Bot einen Benutzer auf der schwarzen Liste nicht imitiert. wahres oder falsches
+Outfitlock                     : Ob Lock-Outfit. wahres oder falsches
+backpacklock                   : Ob Schloss Rucksack.oder falsch
+pickaxelock                    : Ob Spitzhacke sperren. True oder False
+Emoticelock                    : Ob Lock Emote. true oder false
+acceptinvite                   : Gibt an, ob der Bot eine Einladung akzeptiert. Einladung vom Eigentümer wird jedes Mal angenommen. wahr oder falsch
+acceptfriend                   : Gibt an, ob der Bot eine Freundschaftsanfrage akzeptiert. true oder false oder null
+addfriend                      : Gibt an, ob der Bot eine Freundschaftsanfrage an das Gruppenmitglied sendet. true oder false
+invite-ownerdecline            : Gibt an, ob der Bot die Einladung ablehnt, wenn der Eigentümer in der Gruppe ist. true oder false
+inviteinterval                 : Gibt an, ob der Bot die Einladung nach der akzeptierten Einladung für Intervallsekunden ablehnt. wahres oder falsches
+interval                       : Die Anzahl der Sekunden für dieEinladung nach der akzeptierten Einladung.die Ablehnung 
+waitinterval                   : Die Anzahl der Sekunden fürAblehnung der Einladung für den Wartebefehl. true oder false
+hide-blacklist                 : Gibt an, ob der Bot einen Benutzer auf der schwarzen Liste versteckt, der der Gruppe beigetreten ist. true oder false
+show-owner                     : Gibt an, ob der Bot den Eigentümer anzeigt, wenn hide-user true ist. true oder false
+show-whitelist                 : Gibt an, ob der Bot einen Whitelist-Benutzer anzeigt, wenn hide-user true ist. true oder false
+show-bot                       : Gibt an, ob bot bot anzeigt, wenn hide-user true ist. True oder False
+Blacklist                      : Liste für Blacklist-Benutzer. Name oder ID
+blacklist-declineinvite        : Gibt an, ob der Bot die Einladung von Blacklist-Benutzern ablehnt. True oder False
+Blacklist-Autoblock            : Gibt an, ob der Bot Benutzer auf der Blacklist blockiert. True oder False
+Blacklist-Autokick             : Gibt an, ob der Bot die Blacklist-Benutzer von der Party stößt. true oder false
+blacklist-autochatban          : Gibt an, ob der Bot Benutzer auf die schwarze Liste setzt. true oder false
+blacklist-ignorecommand​       : Gibt an, ob der Bot den Befehl von Benutzern auf der schwarzen Liste ignoriert. wahre oder falsche
+Whitelist                      : Liste der Whitelist-Benutzer. Name oder ID
+Whitelist-allowinvite          : Gibt an, ob Whitelist-Benutzer jederzeit Bot einladen können. True oder False
+Whitelist-Rejectinvite         : Gibt an, ob der Bot die Einladung ablehnt, wenn Whitelist-Benutzer in der Gruppe sind. true oder false
+Whitelist-Ignorelock           : Gibt an, ob Whitelist-Benutzer Sperren ignorieren können. true oder false
+whitelist-ownercommand         : Gibt an, ob Benutzer mit Whitelist Eigentümerbefehle verwenden können. true oder false
+Whitelist-Ignoreng             : Gibt an, ob Whitelist-Benutzer NG-Wörter ignorieren können. true oder false
+invitelist                     : Benutzerliste für den Befehl inviteall 
+otherbotlist                   : Andere Bots, die in ignorebot ignoriert werden.Gibt an,gestartet
 
 Discord
-enabled                   : Whether will boot Discord Bot. true or false
-token                     : Token for Discord Bot
-owner                     : Owner's user ID
-channelname               : Channel name used for bot's command channel. See below
-status                    : Discord Bot's status. Can use variables. See below
-status_type               : Discord Bot's status type. See below
-discord                   : Whether bot will accept command from Discord. true or false
-disablediscordperfectly   : Config for if discord is disabled, whether decline command from owner too. true or false
-blacklist                 : List of blacklist users. user ID
-blacklist-ignorecommand   : Whether bot will ignore command from blacklisted users. true or false
-whitelist                 : List of whitelist users. user ID
-whitelist-ignorelock      : Whether whitelisted users can ignore locks. true or false
-whitelist-ownercommand    : Whether whitelisted users can use owner commands. true or false
-whitelist-ignoreng        : Whether whitelisted users can ignore NG words. true or false
+enabled                        : ob Discord Botwird. wahres oder falsches
+Token                          : Token für Discord Bot-
+owner                          : Benutzer-ID des Besitzers
+channelname                    : Kanalname, der für den Befehlskanal des Bots verwendet wird. Siehe unten
+Status                         : Discord Bot Status. Kann Variablen verwenden. Siehe unten
+status_type                    : Der Statustyp von Discord Bot. Siehe unten
+discord                        : Gibt an, ob der Bot den Befehl von Discord akzeptiert. true oder false
+disablediscordperfectly        : Konfigurieren Sie, ob Zwietracht deaktiviert ist, ob der Befehl auch vom Eigentümer abgelehnt wird. wahre oder falsche schwarze 
+blacklist                      : Liste der Benutzer der schwarzen Liste. Benutzer-ID
+blacklist-ignorecommand        : Gibt an, ob der Bot den Befehl von Benutzern auf der schwarzen Liste ignoriert. wahre oder falsche
+Whitelist                      : Liste der Whitelist-Benutzer. Benutzer-ID
+Whitelist-Ignorelock           : Gibt an, ob Whitelist-Benutzer Sperren ignorieren können. true oder false
+whitelist-ownercommand         : Gibt an, ob Benutzer mit Whitelist Eigentümerbefehle verwenden können. true oder false
+Whitelist-Ignoreng             : Gibt an, ob Whitelist-Benutzer NG-Wörter ignorieren können. true oder false
 
 Web
-enabled                   : Whether will boot web server. true or false
-ip                        : IP address for web server. See below
-port                      : Port for web server
-password                  : Password for web server
-login_required            : Whether login required to access web server. true or false
-web                       : Whether bot will accept command from web. true or false
-log                       : Whether print web server access log
+enabled                        : Gibt an, ob der Webserver gestartet werden soll. wahre oder falsche
+IP                             : IP-Adresse für den Webserver. Siehe unten
+Port                           : Port für Webserver-
+Passwort                       : Passwort für Webserver
+login_required                 : Gibt an, ob für den Zugriff auf den Webserver eine Anmeldung erforderlich ist. True oder False
+Web                            : Gibt an, ob der Bot Befehle aus dem Web akzeptiert. wahres oder falsches
+log                            :ob das Webserver-Zugriffsprotokoll gedruckt werden soll.
 
-replies-matchmethod       : Match method for replies. See below
-ng-words                  : Texts set as NG words
-ng-word-matchmethod       : Match method for NG words
-ng-word-kick              : Whether bot will kick user which said NG words
-ng-word-chatban           : Whether bot will chatban user which said NG words
-ng-word-blacklist         : Whether bot will add user which said NG words to blacklist
-lang                      : Bot's lang
-search-lang               : Item search lang
-restart_in                : Time until restart bot
-search_max                : Max amout of search
-no-logs                   : Whether print logs in console. true or false
-ingame-error              : Whether send errors to player. true or false
-discord-log               : Whether send logs to Discord. true or false
-omit-over2000             : Whether will omit texts over 2000 chars on discord log. true or false
-skip-if-overflow          : Skip discord logs if overflow. true or false
-hide-email                : Whether hide emails in Discord logs. true or false
-hide-token                : Whether hide token in Discord logs. true or false
-hide-webhook              : Whether hide webhook url in Discord logs. true or false
-webhook                   : Discord's webhook url
-caseinsensitive           : Whether make command not case insensitive true or false
-loglevel                  : Log level. normal or info or debug
-debug                     : Whether enable fortnitepy debug mode. true or false
+replies-matchmethod           : Übereinstimmungsmethode für Antworten. Siehe unten
+ng-words                      : Texte, die als NG-Wörter festgelegt sind
+ng-word-matchmethod           : Übereinstimmungsmethode für NG-Wörter
+ng-word-kick                  : Benutzer tritt, der die NG-WörterGibt an, ob der Bot dengesagt hat nG Worte
+ng-word-chatban               : Ob Bot Benutzer Chatban wird, der NG Wörter sagte
+ng-word-blacklist             : Ob Bieten Benutzer hinzufügen wirddie die nG Worte schwarze Liste
+lang                          : Bietet lang
+search-lang                   : Item langsuchen:
+restart_in                    : Zeit bisNeustart
+search_max                    : Max amout der Suche
+no-logs                       : Ob Druckprotokolle in Konsole. wahrer oder falscher
+ingame-error                  : Gibt an, ob Fehler an den Spieler gesendet werden sollen. true oder false
+discord-log                   : Gibt an, ob Protokolle an Discord gesendet werden sollen. true oder false
+omit-over2000                 : Gibt an, ob Texte über 2000 Zeichen im Discord-Protokoll weggelassen werden. wahr oder falsch
+skip-if-overflow              : Überspringprotokolle überspringen, wenn Überlauf. true oder false
+hide-email                    : Gibt an, ob E-Mails in Discord-Protokollen ausgeblendet werden sollen. true oder false
+hide-token                    : Gibt an, ob das Token in Discord-Protokollen ausgeblendet werden soll. true oder false
+hide-webhook                  : Gibt an, ob die Webhook-URL in Discord-Protokollen ausgeblendet werden soll. wahrer oder falscher
+Webhook                       : Discords Webhook-URL
+caseinsensitiv                : Gibt an, ob der Befehl nicht zwischen Groß- und Kleinschreibung unterscheidet. wahr oder falsch.
+loglevel                      : Protokollstufe. Normal oder Info oder Debug-
+Debug                         : Gibt an, ob der Fortnitepy-Debug-Modus aktiviert werden soll. richtig oder falsch
+
 ```
 
-# List of commands
-All command can set multiple by split in ,  
-All commands can be used by owner only by default  
-Also enter item name to change item to it  
-You can set items by entering item IDs  
+# Liste der Befehle
+Alle Befehle können durch Aufteilen in mehrere festgelegt werden.
+Alle Befehle können standardmäßig nur vom Eigentümer verwendet werden
+Geben Sie auch den Artikelnamen ein, um den Artikel zu ändern
+Sie können Artikel festlegen, indem Sie Artikel-IDs eingeben  
 
 ```
 usercommands                              : Set commands that can used by users too. Can use commands listed by here, in addition [ "cid_","bid_","petcarrier_","pickaxe_id_","eid_","emoji_","toy_","item-search"] can use
